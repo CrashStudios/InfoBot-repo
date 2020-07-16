@@ -1,0 +1,20 @@
+﻿@page
+@model InfoBotWeb.UserInputModel
+
+
+@{
+    //ViewData["Title"] = "UserInput";
+}
+
+<h1>Search</h1>
+<form method="post">
+    <input type="text" asp-for="NameProperty.Name" placeholder="Player Name or word" />
+    <button type="submit">Get Info</button>
+   
+    <label> District: @Model.NameProperty.District.</label>
+    <label> Fact: @Model.NameProperty.Fact.</label>
+    <label> @Model.NameProperty.ErrorMessage</label>
+
+</form>
+
+
