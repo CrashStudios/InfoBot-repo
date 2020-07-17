@@ -185,7 +185,7 @@ namespace InfoBotLibrary
             }
             else if (name == "Ayciate")
             {
-                info.Fact = "Says wb and ty to himself and was the opsomor of skuxMC. Also a really cool person";
+                info.Fact = "They say wb and ty to themselves and are the opsomor of skuxMC. Also a really cool person";
             }
             else
             {
